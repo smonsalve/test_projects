@@ -1,0 +1,9 @@
+one:
+  autor: MyString
+  frase: MyText
+  created_by: MyString
+
+two:
+  autor: MyString
+  frase: MyText
+  created_by: MyString

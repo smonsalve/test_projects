@@ -1,0 +1,21 @@
+<% title "Frases" %>
+
+<table>
+  <tr>
+    <th>Autor</th>
+    <th>Frase</th>
+    <th>Created By</th>
+  </tr>
+  <% for frase in @frases %>
+    <tr>
+      <td><%= frase.autor %></td>
+      <td><%= frase.frase %></td>
+      <td><%= frase.created_by %></td>
+      <td><%= link_to "Show", frase %></td>
+      <td><%= link_to "Edit", edit_frase_path(frase) %></td>
+      <td><%= link_to "Destroy", frase, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Frase", new_frase_path %></p>

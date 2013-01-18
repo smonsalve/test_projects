@@ -1,0 +1,20 @@
+<% title "Frase" %>
+
+<p>
+  <strong>Autor:</strong>
+  <%= @frase.autor %>
+</p>
+<p>
+  <strong>Frase:</strong>
+  <%= @frase.frase %>
+</p>
+<p>
+  <strong>Created By:</strong>
+  <%= @frase.created_by %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_frase_path(@frase) %> |
+  <%= link_to "Destroy", @frase, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", frases_path %>
+</p>
