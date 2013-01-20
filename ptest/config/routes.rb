@@ -1,4 +1,7 @@
 Ptest::Application.routes.draw do
+  resources :articles
+
+
   get "home/index"
 
   resources :projects
