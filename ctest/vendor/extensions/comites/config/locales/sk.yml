@@ -1,0 +1,33 @@
+sk:
+  refinery:
+    plugins:
+      comites:
+        title: Comites
+    comites:
+      admin:
+        comites:
+          actions:
+            create_new: Pridať Comite
+            reorder: Preusporiadať Comites
+            reorder_done: Koniec radenia Comites
+          records:
+            title: Comites
+            sorry_no_results: Ľutujeme, ale neboli nájdené žiadne výsledky.
+            no_items_yet: Nie sú vytvorené žiadne Comites. Kliknite na "Pridať Comite" pre pridanie prvého comite.
+          comite:
+            view_live_html: Zobraziť náhľad comite<br/><em>(otvorí sa v novom okne)</em>
+            edit: Upraviť comite
+            delete: Zmazať comite
+      comites:
+        show:
+          other: Daľšie Comites
+  activerecord:
+    attributes:
+      'refinery/comites/comite':
+        nombre: Nombre
+        carrera: Carrera
+        logo: Logo
+        descripcion: Descripcion
+        correo: Correo
+        facebook: Facebook
+        twitter: Twitter

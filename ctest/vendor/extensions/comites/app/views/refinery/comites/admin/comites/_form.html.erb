@@ -1,0 +1,78 @@
+<%= form_for [refinery, :comites_admin, @comite] do |f| -%>
+  <%= render '/refinery/admin/error_messages',
+              :object => @comite,
+              :include_object_name => true %>
+
+  
+  <div class='field'>
+    <%= f.label :nombre -%>
+    <%= f.text_field :nombre, :class => 'larger widest'  -%>
+
+  </div>
+  
+  <div class='field'>
+    <%= f.label :carrera -%>
+    <%= f.text_field :carrera  -%>
+
+  </div>
+  
+  <div class='field'>
+    <%= f.label :logo -%>
+    <%= render '/refinery/admin/image_picker',
+               :f => f,
+               :field => :logo_id,
+               :image => @comite.logo,
+               :toggle_image_display => false %>
+
+  </div>
+  
+  <div class='field'>
+    <div id='page-tabs' class='clearfix ui-tabs ui-widget ui-widget-content ui-corner-all'>
+      <ul id='page_parts'>
+        <% [:descripcion].each_with_index do |part, part_index| %>
+          <li class='ui-state-default<%= ' ui-state-active' if part_index == 0 %>'>
+            <%= link_to t("#{part}", :scope => "activerecord.attributes.refinery/comites/comite", :default => part.to_s.titleize), "##{part}" %>
+          </li>
+        <% end %>
+      </ul>
+      <div id='page_part_editors'>
+        <% [:descripcion].each do |part| %>
+          <div class='page_part' id='<%= part %>'>
+            <%= f.text_area part, :rows => 20, :class => 'wymeditor widest' -%>
+          </div>
+        <% end %>
+      </div>
+    </div>
+
+  </div>
+  
+  <div class='field'>
+    <%= f.label :correo -%>
+    <%= f.text_field :correo  -%>
+
+  </div>
+  
+  <div class='field'>
+    <%= f.label :facebook -%>
+    <%= f.text_field :facebook  -%>
+
+  </div>
+  
+  <div class='field'>
+    <%= f.label :twitter -%>
+    <%= f.text_field :twitter  -%>
+
+  </div>
+  
+  <%= render '/refinery/admin/form_actions', :f => f,
+             :continue_editing => false,
+             :delete_title => t('delete', :scope => 'refinery.comites.admin.comites.comite'),
+             :delete_confirmation => t('message', :scope => 'refinery.admin.delete', :title => @comite.nombre) %>
+<% end -%>
+<% content_for :javascripts do %>
+  <script>
+    $(document).ready(function(){
+      page_options.init(false, '', '');
+    });
+  </script>
+<% end %>

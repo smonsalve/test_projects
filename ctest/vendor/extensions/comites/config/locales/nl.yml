@@ -1,0 +1,33 @@
+nl:
+  refinery:
+    plugins:
+      comites:
+        title: Comites
+    comites:
+      admin:
+        comites:
+          actions:
+            create_new: Maak een nieuwe Comite
+            reorder: Wijzig de volgorde van de Comites
+            reorder_done: Klaar met het wijzingen van de volgorde van de Comites
+          records:
+            title: Comites
+            sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+            no_items_yet: Er zijn nog geen Comites. Druk op 'Maak een nieuwe Comite' om de eerste aan te maken.
+          comite:
+            view_live_html: Bekijk deze comite op de website <br/><em>(opent een nieuw venster)</em>
+            edit: Bewerk deze comite
+            delete: Verwijder deze comite voor eeuwig
+      comites:
+        show:
+          other: Andere Comites
+  activerecord:
+    attributes:
+      'refinery/comites/comite':
+        nombre: Nombre
+        carrera: Carrera
+        logo: Logo
+        descripcion: Descripcion
+        correo: Correo
+        facebook: Facebook
+        twitter: Twitter

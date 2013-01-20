@@ -1,0 +1,29 @@
+<section id="body_content">
+  <section id="body">
+    <div id="comite">
+      <% @comites.each do |comite| %>
+      <div class="comite">
+        <%= image_fu comite.logo, "200x200", class: "image-align-#{cycle("left", "right")}" %>
+        <h2><%= comite.nombre %></h2>
+        <h2><%= comite.facebook %></h2>
+        <h2><%= comite.twitter %></h2>
+        
+        <%=raw comite.descripcion %>
+        <p class="more_info"><%= link_to "More Information", refinery.comites_comite_path(comite) %></p>
+      </div>
+      <% end %>
+    </div>
+  </section>
+</section>
+
+<!-- <% content_for :body do %>
+  <ul id="comites">
+    <% @comites.each do |comite| %>
+      <li>
+        <%= link_to comite.nombre, refinery.comites_comite_path(comite) %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= render '/refinery/content_page' %> -->

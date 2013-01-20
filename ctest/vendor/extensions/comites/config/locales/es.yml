@@ -1,0 +1,34 @@
+es:
+  refinery:
+    plugins:
+      comites:
+        title: Comites
+#        article: masculino/femenino
+    comites:
+      admin:
+        comites:
+          actions:
+            create_new: Crear nuevo comite
+            reorder: Reordenar comites
+            reorder_done: Reordenación de comites completada
+          records:
+            title: Comites
+            sorry_no_results: Lo siento, no hay resultados
+            no_items_yet: No hay comites todavía. Pulsa en "Crear nuevo Comite" para crear tu primer comite.
+          comite:
+            view_live_html: Ver este comite como abierto al público <br/><em>(abre en ventana nueva)</em>
+            edit: Editar este comite
+            delete: Borrar este comite para siempre
+      comites:
+        show:
+          other: Otros comites
+  activerecord:
+    attributes:
+      'refinery/comites/comite':
+        nombre: Nombre
+        carrera: Carrera
+        logo: Logo
+        descripcion: Descripcion
+        correo: Correo
+        facebook: Facebook
+        twitter: Twitter

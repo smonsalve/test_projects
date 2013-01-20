@@ -1,0 +1,33 @@
+en:
+  refinery:
+    plugins:
+      comites:
+        title: Comites
+    comites:
+      admin:
+        comites:
+          actions:
+            create_new: Add New Comite
+            reorder: Reorder Comites
+            reorder_done: Done Reordering Comites
+          records:
+            title: Comites
+            sorry_no_results: Sorry! There are no results found.
+            no_items_yet: There are no Comites yet. Click "Add New Comite" to add your first comite.
+          comite:
+            view_live_html: View this comite live <br/><em>(opens in a new window)</em>
+            edit: Edit this comite
+            delete: Remove this comite forever
+      comites:
+        show:
+          other: Other Comites
+  activerecord:
+    attributes:
+      'refinery/comites/comite':
+        nombre: Nombre
+        carrera: Carrera
+        logo: Logo
+        descripcion: Descripcion
+        correo: Correo
+        facebook: Facebook
+        twitter: Twitter

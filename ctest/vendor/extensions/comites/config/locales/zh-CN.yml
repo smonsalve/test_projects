@@ -1,0 +1,35 @@
+zh-CN:
+  refinery:
+    plugins:
+      comites:
+        title: Comites
+    comites:
+      admin:
+        comites:
+          actions:
+            create_new: 建立新的 Comite
+            reorder: 对 Comites 重新排序
+            reorder_done: 对 Comites 的重新排序结束
+          records:
+            title: Comites
+            sorry_no_results: 对不起，未找到结果。 #Sorry! There are no results found.
+
+            # There are no Comites yet. Click "Add New Comite" to add your first comite.
+            no_items_yet: 目前没有 Comites . 点击 "Add New Comite" 创建一个comite.
+          comite:
+            view_live_html: 查看 comite 的最新内容.<br/><em>(新窗口中打开)</em>
+            edit: 编辑 comite
+            delete: 永久删除 comite
+      comites:
+        show:
+          other: 其他 Comites
+  activerecord:
+    attributes:
+      'refinery/comites/comite':
+        nombre: Nombre
+        carrera: Carrera
+        logo: Logo
+        descripcion: Descripcion
+        correo: Correo
+        facebook: Facebook
+        twitter: Twitter

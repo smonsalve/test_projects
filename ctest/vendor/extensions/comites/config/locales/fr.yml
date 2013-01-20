@@ -1,0 +1,33 @@
+fr:
+  refinery:
+    plugins:
+      comites:
+        title: Comites
+    comites:
+      admin:
+        comites:
+          actions:
+            create_new: Créer un(e) nouve(au/l/lle) Comite
+            reorder: Réordonner les Comites
+            reorder_done: Fin de réordonnancement des Comites
+          records:
+            title: Comites
+            sorry_no_results: "Désolé ! Aucun résultat."
+            no_items_yet: 'Il n''y a actuellement aucun(e) Comite. Cliquer sur "Créer un(e) nouve(au/l/lle) Comite" pour créer votre premi(er/ère) comite.'
+          comite:
+            view_live_html: Voir ce(t/tte) comite <br/><em>(Ouvre une nouvelle fenêtre)</em>
+            edit: Modifier ce(t/tte) comite
+            delete: Supprimer définitivement ce(t/tte) comite
+      comites:
+        show:
+          other: Autres Comites
+  activerecord:
+    attributes:
+      'refinery/comites/comite':
+        nombre: Nombre
+        carrera: Carrera
+        logo: Logo
+        descripcion: Descripcion
+        correo: Correo
+        facebook: Facebook
+        twitter: Twitter

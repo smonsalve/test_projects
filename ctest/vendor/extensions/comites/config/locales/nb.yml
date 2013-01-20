@@ -1,0 +1,33 @@
+nb:
+  refinery:
+    plugins:
+      comites:
+        title: Comites
+    comites:
+      admin:
+        comites:
+          actions:
+            create_new: Lag en ny Comite
+            reorder: Endre rekkefølgen på Comites
+            reorder_done: Ferdig å endre rekkefølgen Comites
+          records:
+            title: Comites
+            sorry_no_results: Beklager! Vi fant ikke noen resultater.
+            no_items_yet: Det er ingen Comites enda. Klikk på "Lag en ny Comite" for å legge til din første comite.
+          comite:
+            view_live_html: Vis hvordan denne comite ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+            edit: Rediger denne comite
+            delete: Fjern denne comite permanent
+      comites:
+        show:
+          other: Andre Comites
+  activerecord:
+    attributes:
+      'refinery/comites/comite':
+        nombre: Nombre
+        carrera: Carrera
+        logo: Logo
+        descripcion: Descripcion
+        correo: Correo
+        facebook: Facebook
+        twitter: Twitter

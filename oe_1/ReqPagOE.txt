@@ -87,6 +87,9 @@ Actividades
 	Patrocinadores	
 Comité
 	Logo
+	correo
+	facebook
+	twitter
 	Director
 	Miembros
 	Correo

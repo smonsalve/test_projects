@@ -11,3 +11,9 @@ Refinery::Pages::Engine.load_seed
 
 # Added by Refinery CMS Blog engine
 Refinery::Blog::Engine.load_seed
+
+# Added by Refinery CMS Comites extension
+Refinery::Comites::Engine.load_seed
+
+# Added by Refinery CMS Venues extension
+Refinery::Calendar::Engine.load_seed

@@ -50,12 +50,12 @@ header {
 }
 
 #banner {
-  background-color: #852A2C;
+  background-color: #004b85;
   padding: 20px 100px;
   font-weight: normal;
   font-style: italic;
   color: #FFF;
-  background: -webkit-gradient(linear, left top, left bottom, from(#A03133), to(#722324));
+  background: -webkit-gradient(linear, left top, left bottom, from(#002e52), to(#00599f));
   background: -moz-linear-gradient(top,  #A03133, #722324);
   -moz-box-shadow: 0 2px 8px 2px #000;
   -webkit-box-shadow: 0 2px 6px 2px #000;
@@ -63,7 +63,7 @@ header {
   p {
     margin: 0;
     padding-top: 32px;
-    font-size: 34px;
+    font-size: 30px;
     &.font-size-small {
       padding-top: 10px;
       font-size: 20px;
@@ -97,4 +97,30 @@ footer {
   color: #999;
   text-align: center;
   clear: both;
+}
+
+#comite {
+  color: #777;
+  h1 {
+    color: #000;
+    font-size: 30px;
+    margin: 0;
+  }
+}
+
+.comite {
+  .image-align-left {
+    margin-left: 20px;
+  }
+  padding-top: 10px;
+  clear: both;
+  color: #777;
+  font-size: 14px;
+  h2 {
+    color: #000;
+    font-size: 26px;
+    margin: 0;
+  }
+  p { margin: 10px 0; }
+  .more_info { font-size: 18px; }
 }

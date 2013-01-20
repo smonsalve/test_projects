@@ -1,0 +1,85 @@
+<section id="body_content">
+  <section id="body">
+    <div id="comite">
+      <%= image_fu @comite.logo, "400x400", class: "image-align-left" %>
+      <h1><%= @comite.nombre %></h1>
+      <p>
+        <b>Facebook:</b> <%= @comite.facebook %>
+      </p>
+      <p>
+        <b>Twitter:</b> <%= @comite.facebook %>
+      </p>
+      <p>
+        <b>Correo:</b> <%= @comite.correo %>
+      </p>
+      <%= raw @comite.descripcion %>
+      <p class="back"><%= link_to "Back to comites", refinery.comites_comites_path %></p>
+    </div>
+  </section>
+</section>
+
+
+
+<!-- <% content_for :body_content_title do %>
+  <%= @comite.nombre %>
+<% end %>
+
+<% content_for :body do %>
+  <section>
+    <h1>Nombre</h1>
+    <p>
+      <%=raw @comite.nombre %>
+    </p>
+  </section>
+  <section>
+    <h1>Carrera</h1>
+    <p>
+      <%=raw @comite.carrera %>
+    </p>
+  </section>
+  <section>
+    <h1>Logo</h1>
+    <p>
+      <%= image_fu @comite.logo, nil %>
+    </p>
+  </section>
+  <section>
+    <h1>Descripcion</h1>
+    <p>
+      <%=raw @comite.descripcion %>
+    </p>
+  </section>
+  <section>
+    <h1>Correo</h1>
+    <p>
+      <%=raw @comite.correo %>
+    </p>
+  </section>
+  <section>
+    <h1>Facebook</h1>
+    <p>
+      <%=raw @comite.facebook %>
+    </p>
+  </section>
+  <section>
+    <h1>Twitter</h1>
+    <p>
+      <%=raw @comite.twitter %>
+    </p>
+  </section>
+<% end %>
+
+<% content_for :side_body do %>
+  <aside>
+    <h2><%= t('.other') %></h2>
+    <ul id="comites">
+      <% @comites.each do |comite| %>
+        <li>
+          <%= link_to comite.nombre, refinery.comites_comite_path(comite) %>
+        </li>
+      <% end %>
+    </ul>
+  </aside>
+<% end %>
+
+<%= render '/refinery/content_page' %> -->
