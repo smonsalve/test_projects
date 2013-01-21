@@ -13,4 +13,10 @@
 //= require jquery
 //= require jquery-ui
 //= require jquery_ujs
+//= require tinymce
 //= require_tree .
+
+tinyMCE.init({
+  mode: 'textareas',
+  theme: 'advanced'
+});
