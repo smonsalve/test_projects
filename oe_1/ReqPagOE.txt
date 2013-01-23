@@ -157,3 +157,12 @@ coffee-script -> javascript
 TinyMCE
 Omni-auth
 will_paginate
+
+posgreSQL
+rspec **
+cucumber
+capybara
+test::unit
+pandaStream
+
+
