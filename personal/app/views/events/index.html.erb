@@ -1,0 +1,9 @@
+<h1>Listing Events</h1>
+
+<div id="events">
+	<%= calendar do |date| %>
+	<%= date.day %>
+	<% end %>
+</div>
+
+<%= link_to 'New Event', new_event_path %>

@@ -1,4 +1,7 @@
 Personal::Application.routes.draw do
+  resources :events
+
+
   resources :articles
 
 
