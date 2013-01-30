@@ -1,0 +1,10 @@
+<%= simple_form_for @painting, :html  => {:multipart  => true} do |f| %>
+	<%= f.input :name %>
+	<%= f.association :gallery, include_blank: false %>
+	<%= f.input :image, as: :file %>
+	<%= f.input :remote_image_url  %>
+	
+	<%= f.button :submit %>
+	
+<% end %>
+
