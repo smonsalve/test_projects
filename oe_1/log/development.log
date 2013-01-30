@@ -1,0 +1,134 @@
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-28 10:21:46 -0500
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.8ms)
+Compiled home.css  (35ms)  (pid 504)
+Compiled photos.css  (1ms)  (pid 504)
+Compiled scaffolds.css  (12ms)  (pid 504)
+Compiled application.css  (92ms)  (pid 504)
+Compiled jquery.js  (1ms)  (pid 504)
+Compiled jquery_ujs.js  (0ms)  (pid 504)
+Compiled home.js  (206ms)  (pid 504)
+Compiled photos.js  (55ms)  (pid 504)
+Compiled application.js  (307ms)  (pid 504)
+Completed 200 OK in 529ms (Views: 528.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2013-01-28 10:21:47 -0500
+Served asset /photos.css - 200 OK (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-01-28 10:21:47 -0500
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-01-28 10:21:47 -0500
+Served asset /home.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-28 10:21:47 -0500
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2013-01-28 10:21:47 -0500
+Served asset /photos.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-28 10:21:47 -0500
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-28 10:21:47 -0500
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-28 10:21:47 -0500
+Served asset /application.js - 200 OK (25ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-28 10:21:47 -0500
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2013-01-28 10:21:52 -0500
+Processing by PhotosController#index as HTML
+Completed 500 Internal Server Error in 86ms
+
+ActiveRecord::StatementInvalid (Could not find table 'photos'):
+  app/controllers/photos_controller.rb:5:in `index'
+
+
+  Rendered /Users/josevasquez/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/josevasquez/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/josevasquez/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.8ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2013-01-30 10:51:38 -0500
+Connecting to database specified by database.yml
+Processing by PhotosController#index as HTML
+Completed 500 Internal Server Error in 41ms
+
+ActiveRecord::StatementInvalid (Could not find table 'photos'):
+  app/controllers/photos_controller.rb:5:in `index'
+
+
+  Rendered /Users/josevasquez/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/josevasquez/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/josevasquez/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 10:51:45 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 372ms (Views: 372.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 10:51:46 -0500
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-01-30 10:51:46 -0500
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2013-01-30 10:51:46 -0500
+Served asset /photos.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-01-30 10:51:46 -0500
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 10:51:46 -0500
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 10:51:46 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-01-30 10:51:46 -0500
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2013-01-30 10:51:46 -0500
+Served asset /photos.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 10:51:46 -0500
+Served asset /application.js - 304 Not Modified (27ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2013-01-30 10:51:50 -0500
+Processing by PhotosController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'photos'):
+  app/controllers/photos_controller.rb:5:in `index'
+
+
+  Rendered /Users/josevasquez/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/josevasquez/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/josevasquez/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.6ms)
