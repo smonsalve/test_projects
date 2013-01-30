@@ -1,0 +1,156 @@
+_________Pagina OE__________
+testing
+Sistema de Autenticacion
+INICIO
+Noticias - CMS -> Sergio
+Galeria -> Subir archivos -> Jose
+	Fotos
+	Videos
+FAQs
+RSS/Suscribirse a noticias/Mailer
+Actividades 2013
+Deseo Ingresar
+	Convocatoria
+	Charla Informativa
+	Resultados	
+Quienes Somos
+	Nuestra Historia
+	Nuestros Comités
+	Nuestros Eventos
+	Nuestros Integrantes
+		2012
+		2011
+Hechos OE
+	2010
+	2011
+	2012
+	2013
+Documentacion
+	Estatutos
+	Reglamentos
+	Manuales
+	Formatos
+	Guias
+	Informes de Gestión
+Programa de Subsidios de Alimentacion y Transporte para Estudiantes Becados (SATEB)
+	Reglamento
+	Formulario
+	Resultados
+	Donaciones
+	FAQs
+Activos OE
+	Solicitud de Prestamo	
+Solicitud Subsidio Ponencia
+Contactenos
+	Canal de Youtube
+	Twitter
+	Facebook	
+Estamos En construcción 
+	envianos tu comentario, 
+	sugerencia o error que hayas encontrado  
+
+__________(solo para miembros)_____________
+	Foro	
+	OEccionario
+		Frase
+		bataneante
+		Bataneador	
+	Grupo Interno de FacebooK
+	Galeria Privada	
+	Calendario Interno
+		Cumpleaños
+			Norita, rector, Angela E, Ana Vargas, Miembros, etc...
+		Capacitaciones
+		Juntas
+		Reuniones Comites
+		Reuniones Mesa
+		Reunion CP
+		Reunion CGH		
+	Capacitaciones
+		Mercadeo
+		Finanzas
+		Logistica
+		Gestion Humana
+		Dirección
+		Planeación
+		
+______________MODELOS______________	
+
+Actividades
+	Fecha
+	Hora
+	Lugar
+	Publico
+	Valor
+	Organizadores(miembros actuales del comité)
+	Descripción
+	Patrocinadores	
+Comité
+	Logo
+	Director
+	Miembros
+	Correo
+	Actividades	
+Rol
+	Presidente
+	Vicepresidente Mercadeo
+	Vicepresidente Financiero
+	Vicepresidente Administrativo
+	Vicepresidente Gestion Humana
+	Director Evento General OE 
+	Director DIAS EAFIT
+	Director ZOCO
+	Director Comité
+	Representante ante Junta
+	D Mercadeo
+	D Finanzas
+	D Logisitica
+	D Gestion Humana
+	Grupo de Apoyo
+	Novato
+	Chic@ OE
+	Patron@
+	Director Asuntos Varios
+	Director Juegos, Rifas y Espectaculos
+Miembros
+	Fotos Perfil
+	Perfil Facebook
+	Twitter
+	Nombres
+	Apellidos
+	Codigo
+	Correo Eafit
+	Correo Personal
+	Celular
+	telefono Fijo
+	Tipo Documento
+	Documento
+	Fecha de Nacimiento
+	Fecha de Ingreso
+	Fecha de Grado (Aproximada)
+	Talla Camiseta
+	Alergias
+	EPS
+	Contacto en Caso de Emergencia
+	Telefono Contacto en Caso de Emergencia
+	Otros
+	Cargos
+	Actividades en las que ha participado
+	Sobre Mi
+______________Pluggins a Investigar________________________
+
+agragar ajax... (menus)
+integracion con fb
+integrar con tw
+integrar con Flickr
+integrar con youtube
+analisis de Visitas
+PAypal, PSE, Donaciones
+Editores para noticias, comunicados (agregar fotos, estilos, etc)
+Paperclip
+Sorcery -> autenticacion
+stripe -> pagos
+coffee-script -> javascript
+TinyMCE
+Omni-auth
+will_paginate

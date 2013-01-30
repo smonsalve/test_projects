@@ -1,0 +1,14 @@
+0000000000000000000000000000000000000000 6504691e48fa53659de0189dd6d088c342d08ff1 Jose Vasquez <josevasquez@Joses-MacBook-Pro.local> 1358364862 -0500	clone: from https://github.com/smonsalve/oe.git
+6504691e48fa53659de0189dd6d088c342d08ff1 603b1d1e2f7cb2ede0cdb35c974097031d711049 Jose Vasquez <josevasquez@Joses-MacBook-Pro.local> 1358365676 -0500	pull: Fast-forward
+603b1d1e2f7cb2ede0cdb35c974097031d711049 c692ba87460d0a3f8085a890e7d43c93e7494e37 Jose Vasquez <josevasquez@Joses-MacBook-Pro.local> 1358366339 -0500	commit: Photo model
+c692ba87460d0a3f8085a890e7d43c93e7494e37 00715844a41e9dc4a365635f31a98c4e09c1478e Jose Vasquez <josevasquez@Joses-MacBook-Pro.local> 1358366429 -0500	commit (merge): Photo model
+00715844a41e9dc4a365635f31a98c4e09c1478e 0333173db59e0f5bc0cfb20dd7c0f8b50b49a7dc Jose Vasquez <josevasquez@Joses-MacBook-Pro.local> 1358367563 -0500	commit: Error
+0333173db59e0f5bc0cfb20dd7c0f8b50b49a7dc 455319a040a2466da1f4b8b8d112fb3c54b70cb1 Jose Vasquez <josevasquez@Joses-MacBook-Pro.local> 1358367595 -0500	pull: Merge made by the 'recursive' strategy.
+455319a040a2466da1f4b8b8d112fb3c54b70cb1 a2cbdcd38f96717d2f22397af89d2cb9affe3c5b Jose Vasquez <josevasquez@Joses-MacBook-Pro.local> 1358368602 -0500	commit: Error2
+a2cbdcd38f96717d2f22397af89d2cb9affe3c5b a5ad1ead1e85a80bedd3c88487ed1947705bc6a4 Jose Vasquez <josevasquez@Joses-MacBook-Pro.local> 1358368703 -0500	commit (merge): Merge branch 'master' of https://github.com/smonsalve/oe
+a5ad1ead1e85a80bedd3c88487ed1947705bc6a4 c7e591e7010a51812342239a7132a1a435f67c55 Jose Vasquez <josevasquez@Joses-MacBook-Pro.local> 1358369071 -0500	pull: Fast-forward
+c7e591e7010a51812342239a7132a1a435f67c55 a021db1bfb9570eb3219ac0c89afd326bb485999 Jose Vasquez <josevasquez@Joses-MacBook-Pro.local> 1358369133 -0500	commit: Test
+a021db1bfb9570eb3219ac0c89afd326bb485999 81ee381578c58c5ab50784dc7d1bd71a518a2c03 Jose Vasquez <josevasquez@Joses-MacBook-Pro.local> 1358370224 -0500	pull: Fast-forward
+81ee381578c58c5ab50784dc7d1bd71a518a2c03 d5155ea241d7ac8fb625516691a24c2d2ebf8f5d Jose Vasquez <josevasquez@Joses-MacBook-Pro.local> 1358371434 -0500	commit: Test1
+d5155ea241d7ac8fb625516691a24c2d2ebf8f5d 72b32ac4abe668312658a69566a12ac820a239dc Jose Vasquez <josevasquez@Joses-MacBook-Pro.local> 1358372055 -0500	commit: upload and show a image
+72b32ac4abe668312658a69566a12ac820a239dc 1a5d4d36e39813dd42df17b422e746346de4e3ce Jose Vasquez <josevasquez@Joses-MacBook-Pro.local> 1359560982 -0500	commit: Upload/download files(photos info in csv/xls format

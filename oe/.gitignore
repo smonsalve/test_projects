@@ -1,0 +1,8 @@
+tmp
+log/*.log
+db/*.sqlite3
+pull_*.dat
+.#*#
+.#*
+#*#
+*~
